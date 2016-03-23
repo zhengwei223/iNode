@@ -1,4 +1,4 @@
-<ul id="tree" class="ztree"></ul><article class='markdown-body'>
+[TOC]
 #第四章 CSS初探
 css（层叠样式表），用来规定html文档的呈现样式。
 
@@ -43,7 +43,3 @@ css由系列样式声明组成，这些声明由分号分割。每个声明由�
 
 ####外部样式表
 外部样式表指的是，我们将css定义写在一个单独的文件中，由文档来引用，就像把这些定义拷贝在了当前文档中一样。
-
-</article>
-<script type="text/javascript" src="http://i5ting.github.io/git-quick-start/preview/js/jquery-1.10.2.min.js"></script><script type="text/javascript" src="http://i5ting.github.io/git-quick-start/preview/js/jquery.ztree.all-3.5.min.js"></script><script type="text/javascript" src="http://i5ting.github.io/git-quick-start/preview/js/jquery.ztree_toc.js"></script>
-<SCRIPT type="text/javascript" > <!-- $(document).ready(function(){ $('#tree').ztree_toc({ is_auto_number:true, documment_selector:'.markdown-body', ztreeStyle: { width:'260px', overflow: 'auto', position: 'fixed', 'z-index': 2147483647, border: '0px none', left: '0px', top: '0px' } }); }); //--> </SCRIPT> 
