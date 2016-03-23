@@ -6,5 +6,6 @@ http.createServer((request,response)=>{
 	response.end("hello \n");
 }).listen(8888);//创建server并监听
 
+console.log('Server访问地址 http://localhost:8888');
 
 
