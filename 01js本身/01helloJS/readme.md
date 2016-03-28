@@ -48,19 +48,20 @@
 差不多就这些，有的语言还有io，多线程等。所以学习一门新的语言，如果之前没有编程经验，就要从头学习，如果已经掌握一门语言，那么就会轻松些。
 
 ###嵌入网页中的js
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<script type="text/javascript">
-				var name = "lanqiao";//定义一个变量
-				alert(name);//弹出变量的值
-			</script>
-		</head>
-		<body>
+```html
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			var name = "lanqiao";//定义一个变量
+			alert(name);//弹出变量的值
+		</script>
+	</head>
+	<body>
 
-		</body>
-	</html> 
-	
+	</body>
+</html> 
+```
 js可以写在网页的任何地方，但是js代码需要被包含在script标签之内，以便告知浏览器这中间的代码是js，而不是html的元素。type="text/javascript"是向浏览器说明，如果浏览器不支持javascript，那么这中间的内容就是文本（text）。
 
 一个网页中可以多次出现script标签，浏览器按顺序解释。
