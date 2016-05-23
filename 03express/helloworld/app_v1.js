@@ -1,6 +1,5 @@
 var express = require('express');
-
-var http = require('http');
+var http = require('http'); 
 var path = require('path');
 
 var app = express();
@@ -16,7 +15,7 @@ app.all('/', function(req, res) {
 
 app.all('/login',(req,resp)=>{
 	console.log('请求来了...');
-	resp.json({result:1});
+	resp.json({result:1});//返回json数据格式
 })
 
 http.createServer(app).listen(app.get('port'), function(){
